@@ -1,0 +1,45 @@
+<p>{{ title }}</p>
+<div>
+  <mat-form-field>
+    <div *ngIf="phonebookData.name === ''">
+      <label>Phonebook Name</label>
+    </div>
+    <mat-label>Phonebook Name</mat-label>
+    <input
+      type="email"
+      matInput
+      [(ngModel)]="phonebookData.name"
+      placeholder="Contact Name"
+    />
+  </mat-form-field>
+  <button mat-button (click)="addNew()">Add Entry</button>
+  <mat-form-field appearance="standard">
+    <label>Filter</label>
+    <mat-label>Filter</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Name" #input />
+  </mat-form-field>
+  <div *ngFor="let item of entries">
+    <mat-form-field>
+      <label *ngIf="item.name === ''"> Name </label>
+      <mat-label>Name</mat-label>
+      <input
+        type="email"
+        matInput
+        [(ngModel)]="item.name"
+        placeholder="Contact Name"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <label *ngIf="item.phoneNumber === ''"> Phone Number </label>
+      <mat-label>Phone Number</mat-label>
+      <input
+        type="email"
+        [(ngModel)]="item.phoneNumber"
+        matInput
+        placeholder="Contact Surname"
+      />
+    </mat-form-field>
+    <button mat-button (click)="delete(item.id)">Delete Entry</button>
+  </div>
+  <button mat-button (click)="save()">Save</button>
+</div>
