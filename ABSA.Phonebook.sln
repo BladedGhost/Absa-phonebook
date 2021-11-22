@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABSA.Phonebook.Core", "ABSA.Phonebook.Core\ABSA.Phonebook.Core.csproj", "{7C43F79A-E4B5-489B-B297-7DE79957415A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABSA.Phonebook.Core", "ABSA.Phonebook.Core\ABSA.Phonebook.Core.csproj", "{7C43F79A-E4B5-489B-B297-7DE79957415A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABSA.Phonebook.Data", "ABSA.Phonebook.Data\ABSA.Phonebook.Data.csproj", "{06106389-45EC-4EEA-9D28-D2A9AD7C40EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABSA.Phonebook.Data", "ABSA.Phonebook.Data\ABSA.Phonebook.Data.csproj", "{06106389-45EC-4EEA-9D28-D2A9AD7C40EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABSA.Phonebook.Models", "ABSA.Phonebook.Models\ABSA.Phonebook.Models.csproj", "{81E4011E-44C0-406A-8EF8-2747BDAD9705}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABSA.Phonebook.Models", "ABSA.Phonebook.Models\ABSA.Phonebook.Models.csproj", "{81E4011E-44C0-406A-8EF8-2747BDAD9705}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABSA.Phonebook.Tests", "ABSA.Phonebook.Tests\ABSA.Phonebook.Tests.csproj", "{38987B32-130A-41E2-B264-56803F063557}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABSA.Phonebook.API", "ABSA.Phonebook.API\ABSA.Phonebook.API.csproj", "{60196018-33CA-44A2-A9E7-5E059EFF79BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ABSA.Phonebook.API", "ABSA.Phonebook.API\ABSA.Phonebook.API.csproj", "{60196018-33CA-44A2-A9E7-5E059EFF79BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{81E4011E-44C0-406A-8EF8-2747BDAD9705}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E4011E-44C0-406A-8EF8-2747BDAD9705}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E4011E-44C0-406A-8EF8-2747BDAD9705}.Release|Any CPU.Build.0 = Release|Any CPU
-		{38987B32-130A-41E2-B264-56803F063557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{38987B32-130A-41E2-B264-56803F063557}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{38987B32-130A-41E2-B264-56803F063557}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{38987B32-130A-41E2-B264-56803F063557}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60196018-33CA-44A2-A9E7-5E059EFF79BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{60196018-33CA-44A2-A9E7-5E059EFF79BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60196018-33CA-44A2-A9E7-5E059EFF79BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
